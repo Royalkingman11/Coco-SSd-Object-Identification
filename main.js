@@ -23,7 +23,7 @@ function draw() {
      document.getElementById("status").innerHTML = "Status : Object Detected";
  
      fill("#FF0000");
-     percent = floor(objects[i].confindence * 100);
+     percent = floor.objects[i].confindence * 100);
      text(objects[i].label + " " + percent + "%", objects[i].x, objects[i].y);
      noFill();
      stroke("#FFF0000")
